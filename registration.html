@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+</head>
+<body>
+    <header>
+        <h1>DevConf 2026</h1>
+
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="">Регистрация</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Регистрация участника</h2>
+            <p>Заполните форму, что принять участие в конференции.</p>
+
+            <form>
+                <p>
+                    <label for="first-name">Имя</label>
+                    <input type="text" id="first-name" placeholder="Иван" required>
+                </p>
+
+                <p>
+                    <label for="second-name">Фамилия</label>
+                    <input type="text" id="second-name" placeholder="Иванов" required>
+                </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="ivan@example.com" required>
+                </p>
+
+                <p>
+                    <label for="phone">Телефон</label>
+                    <input type="tel" placeholder="+7 918 838 22 69">
+                </p>
+
+                <p>
+                    <label for="date">Дата рождения</label>
+                    <input type="date">
+                </p>
+
+                <p>
+                    <label for="direction">Основное направление</label>
+                    <select id="direction">
+                        <option value="frontend">Фронтенд</option>
+                        <option value="backend">Бэкенд</option>
+                        <option value="ai">Искусственный интеллект</option>
+                    </select>
+                </p>
+
+                <fieldset>
+                    <legend>Формат участия</legend>
+                    <label>
+                        <input type="radio" name="format">Очно
+                    </label>
+
+                    <label>
+                        <input type="radio" name="format">Онлайн
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Какие темы вам интересны?</legend>
+                    <label>
+                        <input type="checkbox">Frontend
+                    </label>
+
+                    <label>
+                        <input type="checkbox">Backend
+                    </label>
+
+                     <label>
+                        <input type="checkbox">Ai
+                    </label>
+                </fieldset>
+
+                <label for="comment">Комментарии</label>
+                <textarea name="" id="comment" placeholder="Напишите что нибудь о себе"></textarea>
+
+                <p>
+                    <label>
+                        <input type="checkbox" required>
+                        Я согласен на обработку персональных данных
+                    </label>
+                </p>
+                <button type="submit">Зарегистрироваться</button>
+            </form>
+        </section>
+    </main>
+
+
+</body>
+</html>
