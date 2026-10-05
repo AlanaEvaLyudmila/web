@@ -86,3 +86,80 @@ h1, h2, h2, p{
 .card img{
     border-radius: 50%;
 }
+
+.card{
+    margin-bottom: 16px;
+    padding: 20px;
+    background-color: rgb(229, 229, 229);
+    border-radius: 14px;
+    border-left: 5px solid rgb(70, 69, 69);
+}
+
+.card-prog{
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.card-prog h3{
+    background-color: rgb(229, 235, 230);
+    padding: 8px 6px;
+}
+
+.pos{
+    text-align: right;
+}
+
+.card-table{
+    padding: 20px;
+}
+
+table{
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+table th, table td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+table th{
+    background-color: rgb(229, 229, 229);
+}
+
+table tr:nth-child(even) td{
+    background-color: rgb(229, 229, 229);
+}
+
+.notice{
+    padding: 20px;
+}
+
+.site-footer{
+    padding: 56px 44px;
+    color: white;
+    background-color: rgb(10, 10, 20);
+    font-weight: 700;
+}
+
+.regist{
+    padding: 60px 40px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.regist a{
+    text-align: center;
+    padding: 26px 40px;
+    font-size: 40px;
+    background-color:rgb(10, 10, 56);
+    color: white;
+    border-radius: 36px;
+    text-decoration: none;
+}
+
+.regist a:hover{
+    color:rgb(10, 10, 56);
+    background-color: rgb(110, 110, 114);
+}
